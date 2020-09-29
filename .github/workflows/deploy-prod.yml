@@ -9,6 +9,8 @@ env:
   AZURE_APP_PLAN: actions-ttt-deployment
   AZURE_LOCATION: '"Central US"'
   AZURE_WEBAPP_NAME: kronodex-ttt-app
+  IMAGE_REGISTRY_URL: docker.pkg.github.com/kronodex
+  DOCKER_IMAGE_NAME: kronodex-azure-ttt
 
 jobs:
   build:
